@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar sócio</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../assets/img/back.svg" alt="Return arrow">
+        </a>
+    </header>
+    
+    <main>
+        <form action="../resultados/funcionario.html" method="get">
+            <h4>Região</h4>
+            <select name="region">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="BA">Bahia</option>
+              </select>
+    
+            <h4>Habilidade chaves</h4>
+            <select name="skills">
+                <option value="python">Python</option>
+                <option value="vba">VBA</option>
+                <option value="excel">Excel</option>
+              </select>
+    
+            <h4>Anos mínimos de experiência</h4>
+            <input name="years" type="range" min="0" max="20">
+
+            <input type="submit" value="Buscar">
+        </form>
+    </main>
+
+</body>
+</html>
